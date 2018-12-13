@@ -1,0 +1,71 @@
+* {margin: 0; padding: 0;}
+
+body {
+    color: #313131;
+    font-size: 15px;
+    font-family: 'Microsoft YaHei';
+}
+
+a {text-decoration: none;}
+button:focus {outline: none;}
+li {list-style: none;}
+
+.hidden {display: none;}
+.inline-block {display: inline-block;}
+.flex {display: flex;}
+
+/* Çå¸¡¶¯ */
+.clear {clear: both;}
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.color-red {color: #fd3232;}
+.color-white {color: #fff;}
+
+.text-left {text-align: left;}
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+
+.text-bold {font-weight: bold;}
+.text-italic {font-style: italic;}
+
+.fl {float: left;}
+.fr {float: right;}
+
+.image-center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm-margin {margin: 15px 0;}
+.sm-margin-t {margin-top: 15px;}
+.sm-margin-b {margin-bottom: 15px;}
+
+.md-margin {margin: 25px 0;}
+.md-margin-t {margin-top: 25px;}
+.md-margin-b {margin-bottom: 25px;}
+
+.lg-margin {margin: 50px 0;}
+.lg-margin-t {margin-top: 50px;}
+.lg-margin-b {margin-bottom: 50px;}
+
+.sm-padding {padding: 15px 0;}
+.sm-padding-t {padding-top: 15px;}
+.sm-padding-b {padding-bottom: 15px;}
+
+.md-padding {padding: 25px 0;}
+.md-padding-t {padding-top: 25px;}
+.md-padding-b {padding-bottom: 25px;}
+
+.lg-padding {padding: 50px 0;}
+.lg-padding-t {padding-top: 50px;}
+.lg-padding-b {padding-bottom: 50px;}
+
+/* ¿¿¿¿¿¿¿ */
+#LRfloater0 img {width: 34px;}

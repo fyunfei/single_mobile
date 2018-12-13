@@ -1,0 +1,5 @@
+﻿@charset "utf-8";html,body,div,span,iframe,map,font,img,a img,samp,strong,hr,h1,h2,h3,h4,h5,h6,b,p,blockquote,a,address,code,dl,dt,dd,ol,ul,li,form,label,table,tr,td,th{padding:0;margin:0;border:0;font-weight:400;font-family:microsoft yahei,Arial,Helvetica,sans-serif}ol,ul{list-style:none}h1,h2,h3,h4,h5,h6{font-size:100%}a:link{text-decoration:none}a:visited{text-decoration:none}a:hover{text-decoration:none}a:active{text-decoration:none}input,select{font-family:microsoft yahei,Arial,Helvetica,sans-serif}i{font-style:normal}a{blr:expression(this.onFocus=this.blur())}a:focus{outline:0}a.hidefocus{outline:0}.fl{float:left}.fr{float:right}input[type=text],input[type=submit],input[type=button]{-webkit-appearance:none}input{outline:0}.clearfix:after{display:block;content:"";clear:both;height:0;overflow:hidden}.clearfix{zoom:1}img{width:100%;display:block}body{min-width:320px;max-width:750px;position:relative;background-size:100%;background:#f8f8f8;margin-top:0;margin-right:auto;margin-bottom:0;margin-left:auto}*{box-sizing:border-box}.clear{clear:both}
+* {
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+    -webkit-appearance: none;
+}
