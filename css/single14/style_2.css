@@ -1,0 +1,372 @@
+﻿#LRfloater0 img {
+    width: 34px;
+}
+
+
+body {
+    background: #fff
+}
+
+.header {
+    padding-top: .73rem
+}
+
+.c {
+    width: 6.31rem;
+    margin: 0 auto
+}
+
+.header span {
+    font-size: .78rem;
+    color: #fff;
+    background: #ff6277;
+    width: 4.85rem;
+    line-height: 1.39rem;
+    display: block;
+    text-align: center;
+    margin: 0 auto
+}
+
+.header p {
+    font-size: .59rem;
+    font-weight: 700;
+    margin: 0 auto;
+    width: 4.85rem;
+    margin-top: .23rem;
+    margin-bottom: .67rem
+}
+
+.header ul {
+    background: url("../images/line_l.png") no-repeat left top, url("../images/line_r.png") no-repeat right bottom;
+    background-size: 1.51rem auto;
+    padding: .35rem 0
+}
+
+.header ul li {
+    font-size: .3127rem;
+    padding-left: .49rem;
+    margin-bottom: .1rem;
+    font-weight: 700;
+    position: relative
+}
+
+.header ul li span {
+    width: .2rem;
+    height: .2rem;
+    background: #ff6277;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: .1rem;
+    left: .2rem
+}
+
+.header img {
+    width: 4.42rem;
+    margin: .5rem auto
+}
+
+.header h2 {
+    width: 100%;
+    line-height: .49rem;
+    background: #ff6277;
+    color: #fff;
+    font-size: .34rem;
+    text-align: center;
+    margin-top: .26rem;
+    margin-bottom: .58rem
+}
+
+.index_1 {
+    padding-bottom: .34rem
+}
+
+.index_1 h2 {
+    font-size: .36rem;
+    color: #fff;
+    background: #ff6277;
+    display: block;
+    padding: .15rem 0;
+    font-weight: 700;
+    margin-bottom: .2rem;
+    text-align: center
+}
+
+.index_1 p {
+    width: 6.3rem;
+    font-size: .32rem;
+    line-height: .46rem;
+    margin-bottom: .31rem;
+    margin: 0 auto;
+    background: url("../images/1.png"
+        ) no-repeat;
+    background-size: 100% 100%;
+    padding: .35rem
+}
+
+.index_1 span {
+    color: #ff6277;
+    font-weight: 700
+}
+
+.index_1 img {
+    width: 4.02rem;
+    margin: 0 auto;
+    margin-top: .3rem
+}
+
+.index_1 ul li {
+    float: left;
+    width: 1.41rem;
+    margin-right: .09rem
+}
+
+.index_1 ul li img {
+    width: 100%
+}
+
+.index_2 {
+    width: 100%;
+    margin-top: .49rem;
+    margin-bottom: .43rem;
+    font-size: .24rem
+}
+
+.index_2 ul {
+    background: url("../images/line_l.png"
+        ) no-repeat left top, url("../images/line_r.png"
+        ) no-repeat right bottom;
+    background-size: 1.51rem auto;
+    padding: .25rem
+}
+
+.index_2 ul li h2 {
+    display: inline-block;
+    background: #ff6277;
+    color: #fff;
+    padding: .02rem .15rem;
+    font-size: .32rem;
+    margin-bottom: .1rem
+}
+
+.index_2 span {
+    color: #ff6277;
+    font-weight: 700
+}
+
+.index_2 ul li p {
+    font-size: .32rem;
+    padding-left: .1rem;
+    margin-bottom: .1rem
+}
+
+.index_1 h3 {
+    font-size: .2rem;
+    background: #ff6277;
+    border-radius: .1rem;
+    color: #fff;
+    text-align: center;
+    padding: .05rem 0;
+    margin-top: .2rem
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    padding: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative
+}
+
+.test {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%
+}
+
+.swiper-button-prev {
+    position: inherit !important;
+    background: 0 0;
+    margin-right: 3.5rem
+}
+
+.swiper-button-next {
+    position: inherit !important;
+    width: 100%;
+    padding-left: 13%;
+    margin-top: 1rem;
+    background: 0 0
+}
+
+.test h2 {
+    height: .4rem;
+    line-height: .4rem;
+    text-align: right;
+    font-size: .4rem;
+    margin-right: .8rem;
+    color: #999;
+    display: block;
+    width: 90%;
+    margin-top: 1rem
+}
+
+.test h3 {
+    font-size: .32rem;
+    margin-top: .2rem
+}
+
+.test ul li {
+    float: left;
+    width: 40%;
+    margin: 3%;
+    background: #ff6277;
+    line-height: .7rem;
+    font-size: .24rem;
+    color: #fff
+}
+
+.test h4 {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1rem;
+    background: #ff6277;
+    color: #fff;
+    font-size: .3rem;
+    margin-top: 1rem
+}
+
+.index_3 {
+    padding: 0 .4rem;
+    margin: .4rem 0;
+    display: none
+}
+
+.index_3 h2 {
+    font-size: .4rem;
+    color: #000;
+    border-bottom: 2px solid #ff6277;
+    padding-bottom: .1rem;
+    text-align: center;
+    margin-bottom: .4rem
+}
+
+.index_3 p {
+    width: 100%;
+    font-size: .32rem;
+    color: #ff6277
+}
+
+.index_3 h3 {
+    color: #9b9b9b;
+    font-size: .32rem;
+    text-align: center;
+    margin-top: .5rem
+}
+
+.index_3 h3 span {
+    width: 70%;
+    margin: .5rem auto;
+    line-height: 1rem;
+    background: #ff6277;
+    color: #fff;
+    font-size: .3rem;
+    display: block;
+    border-radius: .5rem
+}
+
+.index_3 a {
+    width: 100%;
+    text-align: center;
+    font-size: .3rem;
+    display: block;
+    color: red;
+    margin: .3rem 0;
+    border-bottom: 1px solid #c8c8c8;
+    padding-bottom: .3rem
+}
+
+.index_3 ul li {
+    border-bottom: 1px solid #c8c8c8;
+    padding-bottom: .3rem
+}
+
+.index_3 ul li h4 {
+    font-size: .35rem;
+    font-weight: 700;
+    margin: .3rem 0
+}
+
+.index_3 ul li h5 {
+    font-size: .32rem;
+    line-height: .44rem
+}
+
+.index_3 ul li h4 img {
+    width: .6rem;
+    border-radius: 50%;
+    float: left;
+    margin-right: .2rem
+}
+
+.index_3 h3 span {
+    font-size: .5rem
+}
+
+.mask {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    height: 100vh;
+    display: none
+}
+
+.mask img {
+    position: absolute;
+    right: 10%;
+    bottom: 30%;
+    width: 80%
+}
+
+.mask p {
+    position: absolute;
+    right: 37%;
+    bottom: 40.5%;
+    font-size: .3rem;
+    color: #fff
+}
+
+.mask a {
+    position: absolute;
+    right: 12%;
+    bottom: 32.5%;
+    width: 1.5rem;
+    height: .5rem;
+    color: #fff
+}
+
+.bqxx {
+    text-align: center;
+    padding: .3rem 0;
+    font-size: .24rem
+}

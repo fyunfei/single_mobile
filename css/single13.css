@@ -1,0 +1,608 @@
+body {
+    background: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+    -webkit-appearance: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo-top {
+    padding: 13px;
+    overflow: hidden;
+}
+
+.logo-top .logo-img {
+    width: 114px;
+    height: 30px;
+}
+
+.logo-top .logo-img img {
+    width: 100%;
+    padding-top: 4px
+}
+
+.logo-top .top-right-text span {
+    color: #919191;
+    font-size: 12px;
+}
+
+.logo-top .top-right-text p {
+    color: #000000;
+    font-size: 12px;
+}
+
+.btn-style {
+    display: inline-block;
+    height: 22px;
+    color: #fff;
+    line-height: 22px;
+    font-size: 12px;
+    padding: 0 20px;
+    background: #e85e5e;
+    border-radius: 11px;
+}
+
+/* banner */
+.banner {
+    position: relative;
+    font-size: 0;
+}
+
+.banner .banner-btn {
+    position: absolute;
+    bottom: 25px;
+    left: 36px;
+}
+
+/* 模块标题 */
+.widget-title {
+    text-align: center;
+    margin: 28px 0;
+}
+
+.widget-title span {
+    position: relative;
+    text-align: center;
+    color: #e85e5e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.widget-title span::before {
+    position: absolute;
+    top: 2px;
+    left: -33px;
+    content: '';
+    width: 17px;
+    height: 19px;
+    background: url("../images/single13/widget-title-icon.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.widget-title span::after {
+    position: absolute;
+    top: 2px;
+    right: -33px;
+    content: '';
+    width: 17px;
+    height: 19px;
+    background: url("../images/single13/widget-title-icon.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/* 导航小图标 */
+.nav-icon-wrap .nav-icon-list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-icon-list li {
+    width: 70px;
+    height: 68px;
+    margin: 0 9px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.nav-icon-list li img {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+}
+
+.nav-icon-list li p {
+    font-size: 14px;
+    color: #313131;
+    text-align: center;
+}
+
+/* 带背景块 */
+.first-block-bg {
+    /* padding: 50px 0; */
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: url("../images/single13/first-bg.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.first-block-bg .first-list-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.first-block-bg .first-list-wrap li img {
+    width: 43px;
+    height: 43px;
+    margin-right: 8px;
+}
+
+.first-block-bg .first-list-wrap li span {
+    color: #ff6666;
+    font-size: 14px;
+}
+
+.first-block-bg .first-list-wrap li {
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.first-block-bg .first-list-wrap li:first-child {
+    margin-right: 10px;
+}
+
+.first-block-bg .first-list-wrap li:last-child {
+    width: 130px;
+    margin-left: 10px;
+}
+
+.bg-in-btn {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* 解决以下问题 */
+.tab-btn {
+    padding: 0 16px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.tab-btn a {
+    display: block;
+    margin-right: 15px;
+    padding: 4px 13px;
+    color: #313131;
+    font-size: 14px;
+    text-align: center;
+    background: #fff;
+}
+
+.tab-btn a:last-child {
+    margin-right: 0;
+}
+
+.tab-btn a.active {
+    color: #fff;
+    background: #e85e5e;
+}
+
+.tab-con {
+    padding: 0 16px;
+}
+
+.tab-con ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.tab-con ul.active-con {
+    display: flex;
+}
+
+.tab-con ul li {
+    width: 33.23%;
+    padding: 6px 0;
+    margin-bottom: 1px;
+    text-align: center;
+    background: #e85e5e;
+}
+
+.tab-con ul li b {
+    color: #fff;
+    display: block;
+    font-size: 15px;
+}
+
+.tab-con ul li span {
+    color: #fff;
+    opacity: .6;
+    font-size: 13px;
+}
+
+.bg-in-btn span {
+    height: 30px;
+    line-height: 34px;
+    display: inline-block;
+    padding: 0 40px 0 25px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    background: url("../images/single13/to-right.png") no-repeat center right 16px;
+    background-color: #e85e5e;
+    background-size: 18px 18px;
+    border-radius: 20px;
+}
+
+.bg-in-btn.margin-t-35 {
+    margin-top: 35px;
+}
+
+/* 也许你已经试过这些挽回方法 */
+.already-try-title .widget-title span::after {
+    top: 20px;
+}
+
+.already-try-title .widget-title span::before {
+    top: 20px;
+}
+
+.already-try-title .widget-title {
+    margin-bottom: 10px;
+}
+
+.already-try-title p {
+    color: #e85e5e;
+    font-size: 14px;
+    text-align: center;
+}
+
+.already-try-con {
+    padding: 0 30px;
+}
+
+.already-try-con li {
+    padding-top: 135px;
+    padding-bottom: 10px;
+    width: 143px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.already-try-con li b {
+    display: block;
+    color: #313131;
+    font-size: 15px;
+}
+
+.already-try-con li span {
+    display: block;
+    color: #313131;
+    font-size: 13px;
+}
+
+.already-try-con ul {
+    display: flex;
+    justify-content: space-between
+}
+
+.already-try-con ul:first-child {
+    margin-top: 35px;
+}
+
+.already-try-con ul:first-child li:nth-child(1) {
+    background: url("../images/single13/already-try-01.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.already-try-con ul:first-child li:nth-child(2) {
+    background: url("../images/single13/already-try-02.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.already-try-con ul:last-child li:nth-child(1) {
+    background: url("../images/single13/already-try-03.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.already-try-con ul:last-child li:nth-child(2) {
+    background: url("../images/single13/already-try-04.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/* 导师团队 */
+.true-way-btn {
+    width: 250px;
+    height: 45px;
+    margin: 25px auto;
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+    background: #e85e5e;
+    border-radius: 5px;
+}
+
+.true-way-btn p {
+    font-size: 15px;
+}
+
+.true-way-btn span {
+    font-size: 12px;
+}
+
+.tutor-team .title-dec {
+    color: #e85e5e;
+    font-size: 14px;
+    text-align: center;
+}
+
+.tutor-team .widget-title {
+    margin-bottom: 10px;
+}
+
+.tutor-con {
+    padding: 0 15px;
+}
+
+.tutor-con ul li {
+    /* padding-left: 100px; */
+    padding: 15px 10px;
+    margin-top: 25px;
+}
+
+.tutor-con ul li:nth-child(n) {
+    background: url("../images/single13/tutor-orange-bg.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tutor-con ul li:nth-child(2n) {
+    background: url("../images/single13/tutor-pink-bg.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tutor-con .tutor-top {
+    display: flex;
+}
+
+.tutor-con .tutor-top .tutor-img {
+    width: 80px;
+    height: 120px;
+}
+
+.tutor-con ul li .advisory {
+    display: block;
+    margin: 0 auto;
+    margin-top: 4px;
+    width: 90px;
+    height: 25px;
+    line-height: 26px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    background: #ff6666;
+    border-radius: 12.5px;
+}
+
+.tutor-con .tutor-top h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #e85e5e;
+    font-weight: bold;
+}
+
+.tutor-con .tutor-top p {
+    color: #313131;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.tutor-con .tutor-top-l {
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+/* 预约咨询 */
+.order-list {
+    padding: 0 20px;
+}
+
+.order-list li {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 13px;
+}
+
+.order-list li span {
+    width: 142px;
+    color: #313131;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.order-list li:nth-child(n) span {
+    text-align: right;
+    float: left;
+}
+
+.order-list li:nth-child(2n) span {
+    text-align: left;
+    float: right;
+}
+
+.order-list li:nth-child(n) i {
+    background: #ff6666;
+}
+
+.order-list li:nth-child(2n) i {
+    background: #ffa0b0;
+}
+
+.order-list li i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    font-style: normal;
+    border-radius: 15px;
+}
+
+.order-list li:nth-child(6) span,
+.order-list li:nth-child(7) span {
+    line-height: 15px;
+}
+
+.order-ask-box {
+    margin: 30px 15px;
+    padding: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    line-height: 26px;
+    font-size: 13px;
+    color: #313131;
+    border: 1px solid #ff6666;
+}
+
+.order-ask-box .red-bold {
+    color: #ff6666;
+    font-weight: bold;
+}
+
+/* 子叶导师 */
+.tutor-block {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tutor-block img {
+    width: 130px;
+    height: 130px;
+}
+
+.tutor-block h3 {
+    margin: 9px 0;
+    color: #e85e5e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tutor-block .ziye-intro {
+    padding: 0 35px;
+    text-align: left;
+    font-size: 13px;
+    color: #313131;
+    line-height: 24px;
+}
+
+.tutor-block .to-copy-wx {
+    margin: 24px 0;
+    color: #919191;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.tutor-block h2 {
+    width: 180px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    line-height: 34px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 15px;
+    background: #e85e5e;
+}
+
+/* 版权 */
+.copyright {
+    padding: 16px 0;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.copyright p {
+    font-size: 11px;
+    color: #313131;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+/* 弹出层 */
+.open-layer {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 250px;
+    height: 170px;
+    line-height: 25px;
+    padding: 15px 15px;
+    text-align: center;
+    background: #fff;
+    z-index: 999;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.1);
+}
+
+.open-layer p {
+    font-size: 14px;
+    color: #313131;
+}
+
+.open-layer p span {
+    color: #e85e5e;
+    font-size: 18px;
+}
+
+.close-layer {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 22px;
+    height: 22px;
+    display: block;
+    background: url("../images/single13/close-icon.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+/* 底部微信 */
+
+aside {
+    width: 100%;
+    height: 68px;
+    background: #e85e5e;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside p, aside span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* 商务通样式调整 */
+#LRfloater0 img {width: 34px;}

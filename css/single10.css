@@ -1,0 +1,391 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Microsoft YaHei';
+    color: #313131;
+}
+
+body {
+    background: #fff;
+}
+
+a {
+    text-decoration: none
+}
+
+
+p{
+    color: #313131;
+    margin-bottom: 14px;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+.wrap{
+    padding:20px 20px 20px 20px;
+    margin: 0 auto;
+}
+
+.page_title{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.source{
+    font-size: 12px;
+    line-height: 24px;
+}
+.source-author{
+    color: #fd3232;
+    margin-right: 10px;
+}
+.source-date{
+    color: #919191;
+}
+
+.big-spacing{
+    margin: 50px auto;
+}
+.mid-spacing{
+    margin: 25px auto;
+}
+.title_lr{
+    font-size: 0;
+}
+.title_lr img{
+    max-width: 100%;
+}
+.main-question h4{
+    font-size: 15px;
+    color: #313131;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.main-question h4 span{
+    display: inline-block;
+    color: #fff;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 12px;
+    background: url("../images/single10/question_bg.png") no-repeat center center;
+    background-size:  100% 100%;
+    margin-right: 10px;
+    position: relative;
+    bottom: 1px;
+}
+.main-question p{
+    margin-bottom: 30px;
+}
+.margin_btm_30{
+    margin-bottom: 30px;
+}
+.text-bold{
+    font-weight: bolder;
+}
+.text-red{
+    color: #e33838!important;
+}
+.text-center{
+    text-align: center;
+}
+.ask-box p{
+    margin: 0;
+    line-height: 26px;
+}
+.ask-box{
+    text-align: center;
+    width: 307;
+    padding: 21px 0;
+    background: url("../images/single10/ask-box_bg.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.slogan {
+    text-align: center;
+}
+.slogan img{
+    width: 245px;
+    margin: 0 auto;
+}
+.section12-others {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    color: #919191;
+}
+.section12-others .icon-thumb {
+    position: relative;
+    top: -1px;
+    width: 15px;
+    height: 15px;
+    background: url("../images/single10/thumb-up.png") no-repeat center center;
+    background-size: contain;
+    margin-right: 5px;
+}
+.section12-others .read {
+    padding-right: 5px;
+}
+.section12-others span {
+    display: inline-block;
+}
+p.spec-para, span.spec-para {
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 15px;
+}
+.section12-others .read-num {
+    padding-right: 20px;
+}
+hr.single-split {
+    margin: 0;
+    margin-top: 5px; 
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+
+.section13-title {
+    padding-top: 60px;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+.section13-title span {
+    position: relative;
+    top: -20px;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #919191;
+    background: #fff;
+    z-index: 1
+}
+
+.section13-title hr {
+    width: 100%;
+    height: 0;
+    position: relative;
+    top: -30px;
+    left: 0;
+    border: 1px;
+    border-top-color: #f1f1f1;
+    border-top-style: dashed;
+    box-sizing: content-box
+}
+
+.section13-comment-item {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start
+}
+
+.section13-comment-item:nth-child(1) {
+    padding-top: 20px
+}
+
+.section13-comment-item .avatar {
+    display: inline-block;
+    width: 36px;
+    height: 37px;
+    background: url("../images/single10/xiyang.png") no-repeat center center;
+    background-size: 100%;
+    margin-right: 10px
+}
+
+.section13-comment-item.user02 .avatar {
+    display: inline-block;
+    width: 36px;
+    height: 37px;
+    background: url("../images/single10/zhiai1992.png") no-repeat center center;
+    background-size: 100%;
+    margin-right: 10px
+}
+
+.section13-comment-item.user03 .avatar {
+    display: inline-block;
+    width: 36px;
+    height: 37px;
+    background: url("../images/single10/dingshushu.png") no-repeat center center;
+    background-size: 100%;
+    margin-right: 10px
+}
+
+.section13-comment-item.user04 .avatar {
+    display: inline-block;
+    width: 36px;
+    height: 37px;
+    background:url("../images/single10/tingyuxiaoxiao.png")no-repeat center center;
+    background-size: 100%;
+    margin-right: 10px
+}
+
+/* .section13-comment-item.user05 .avatar {
+    display: inline-block;
+    width: 36px;
+    height: 37px;
+    background: url(/single/mobile/images/single06/avatar/yinaifanghua_3d95dba.png) no-repeat center center;
+    background-size: 100%;
+    margin-right: 10px
+} */
+
+.section13-comment-item .content {
+    width: 100%
+}
+
+.section13-comment-item .content .comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start
+}
+
+.section13-comment-item .content .comment p {
+    margin: 0
+}
+
+.section13-comment-item .content .comment p.name {
+    color: #616161;
+    padding-bottom: 5px
+}
+
+.section13-comment-item .content .comment span.date {
+    font-size: 12px;
+    color: #919191;
+    padding-top: 2px;
+    padding-bottom: 15px
+}
+
+.section13-comment-item .content .reply .name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.section13-comment-item .content .reply .name .author span {
+    display: inline-block;
+    color: #616161
+}
+
+.section13-comment-item .content .reply .name .author span.icon {
+    width: 3px;
+    height: 15px;
+    vertical-align: middle;
+    margin-bottom: 1px;
+    background: #02bb00
+}
+
+.section13-comment-item .content .reply .name .thumb {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.section13-comment-item .content .reply .name .thumb span {
+    display: inline-block
+}
+
+.section13-comment-item .content .reply .name .thumb span.icon-thumb {
+    width: 16px;
+    height: 16px;
+    background: url("../images/single10/thumb-up.png") no-repeat center center;
+    background-size: 100%;
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+}
+
+.section13-comment-item .content .reply .name .thumb .num {
+    font-size: 13px;
+    color: #919191
+}
+
+.section13-comment-item .content .reply .reply-text {
+    padding-left: 7px;
+    color: #616161;
+    margin-bottom: 0
+}
+
+.section13-comment-item .content .reply .date {
+    font-size: 12px;
+    color: #919191
+}
+
+.section13.section-item {
+    padding: 0
+}
+
+footer {
+    z-index: 3;
+    width: 100%;
+    height: 68px;
+    line-height: 68px;
+    background: #fff;
+    margin-bottom: 68px
+}
+
+footer p {
+    font-size: 18px;
+    color: #313131
+}
+
+@media (max-width: 768px) {
+    footer.lg {
+        display:none
+    }
+
+    footer.xs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+    footer p {
+        font-size: 12px;
+        color: #313131
+    }
+
+    footer.xs p {
+        height: 16px;
+        line-height: 16px;
+        margin-bottom: 0
+    }
+
+    footer.xs p:first-child {
+        margin-bottom: 5px
+    }
+}
+
+aside {
+    width: 100%;
+    height: 68px;
+    background: #fd3232;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+aside p,aside span {
+    color: #fecb2e;
+    font-weight: 700;
+    font-size: 16px
+}
+
+aside p {
+    margin-bottom: 0
+}

