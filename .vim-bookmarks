@@ -1,0 +1,3 @@
+let l:bm_file_version = 1
+let l:bm_sessions = {'default': {'/home/jzw/Project/web/single_mobile/html/single18.html': [{'sign_idx': 9500, 'line_nr': 59, 'content': '</div>'},],}}
+let l:bm_current_session = 'default'
