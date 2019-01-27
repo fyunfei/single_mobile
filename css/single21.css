@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Microsoft YaHei';
+    color: #313131;
+}
+a {
+    text-decoration: none
+}
+p{
+    color: #313131;
+    margin-bottom: 14px;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+.text-bold{
+    font-weight: bold;
+}
+.red{
+  color: #FD4D4D;
+}
+
+.head{
+  background-color: #303030;
+  height: 60px;
+  display: flex;
+}
+.head img{
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px;
+  border-radius: 4px 4px;
+}
+.head p{
+  color: #d8d8d8;
+  line-height: 5px;
+}
+.jiancheng{
+  margin-top: 20px;
+  font-size: 16px;
+}
+.quancheng{
+  font-size: 10px;
+}
+.movie video{
+  width: 100%;
+}
+
+.wenzi {
+  margin: 30px auto;
+  text-align: center;
+}
+
+footer{
+}
+footer .quancheng{
+  font-size: 8px;
+  line-height: 5px;
+  text-align: center;
+}
+.foot{
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+.foot p{
+  line-height: 50px;
+  font-size: 18px;
+}
+.foot .btn{
+  display: inline-block;
+  background-color: #FD4D4D;
+  height: 50px;
+  width: 50%;
+  color: #fff;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+}
