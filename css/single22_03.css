@@ -1,0 +1,55 @@
+.wrap{
+  height: auto;
+  padding:20px 10px;
+  margin: 0 auto;
+  background-image:url('../images/single22_03/single22_03-bg.png');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+}
+.model-z{
+  height: 380px;
+}
+.model01{
+  padding-bottom: 10px;
+}
+.model01 .img1{
+  width: 80%;
+  position: relative;
+  top: 20px;
+  left: 10%;
+  right: auto;
+}
+.model01 .img2{
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 10%;
+  right: auto;
+}
+.model01-wen{
+  text-align: center;
+}
+
+.model03{
+  width: 96%;
+  margin: 20px auto;
+}
+.model04-body ul li p {
+  letter-spacing: 5px;
+  font-size: 18px;
+}
+
+.model05{
+  background:#fff;
+  margin: 20px auto;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 1px;
+}
+.model05 p{
+  font-size: 18px;
+  line-height: 20px;
+}
