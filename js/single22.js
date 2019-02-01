@@ -17,4 +17,13 @@ $(function(){
       }
     }
   });
+
+  setInterval(function working(){ 
+    $(".model07-top-right").animate({
+      bottom: '5px',
+    },300);
+    $(".model07-top-right").animate({
+      bottom: '-16px',
+    },300);
+  },1000);
 });
