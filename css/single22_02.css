@@ -10,11 +10,6 @@
 .model-z{
   height: 388px;
 }
-.pink{
-  font-weight: bold;
-  color: #FF7487;
-  font-size: 18px;
-}
 .model01{
   text-align: center;
   padding-bottom: 10px;
@@ -40,7 +35,6 @@
   display: inline-block;
   background: url('../images/single22_02/model04-btn.png') center center no-repeat;
   background-size: 180px 35px;
-  margin-left: 80px;
 }
 .hidden{
   display: none;

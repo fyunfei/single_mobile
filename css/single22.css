@@ -73,6 +73,11 @@ ul li{
   font-size: 18px;
   font-weight: bold;
 }
+.pink{
+  font-weight: bold;
+  color: #FF7487;
+  font-size: 18px;
+}
 .model02-m{
   display: flex;
   justify-content: space-around;
@@ -171,7 +176,8 @@ ul li{
   display: inline-block;
   background: url('../images/single22/model04-btn.png') center center no-repeat;
   background-size: 180px 35px;
-  margin-left: 80px;
+  position: relative;
+  left:25%;
 }
 .hidden{
   display: none;
